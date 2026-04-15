@@ -18,7 +18,7 @@ facenet_recognition/
 Mở **Terminal** (hoặc PowerShell) trong VS Code (`Ctrl + \``):
 
 ```bash
-# Nếu chạy lệnh để cấp quyền cho user
+# Chạy lệnh để cấp quyền cho user
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Tạo môi trường ảo
