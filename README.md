@@ -25,7 +25,7 @@ python -m venv venv
 venv\Scripts\activate
 
 # Nếu chạy lệnh trên mà bị lỗi thì chạy lệnh sau để cấp quyền cho user như sau
-Set-ExecutionPolicy RemoteSigned - Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Cài thư viện
 pip install -r requirements.txt
