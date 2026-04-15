@@ -18,14 +18,14 @@ facenet_recognition/
 Mở **Terminal** (hoặc PowerShell) trong VS Code (`Ctrl + \``):
 
 ```bash
+# Nếu chạy lệnh để cấp quyền cho user
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 # Tạo môi trường ảo
 python -m venv venv
 
 # Kích hoạt (Windows)
 venv\Scripts\activate
-
-# Nếu chạy lệnh trên mà bị lỗi thì chạy lệnh sau để cấp quyền cho user như sau
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Cài thư viện
 pip install -r requirements.txt
